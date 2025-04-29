@@ -65,6 +65,7 @@
       }
       &:hover {
         @media (min-width: $lg-mf) {
+          box-shadow: $boxShadowPurple2;
         }
       }
       &:focus,
