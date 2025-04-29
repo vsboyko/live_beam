@@ -1,0 +1,663 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+  <link rel="stylesheet" href="css/style.min.css??=v=20250429190746">
+  <link rel="icon" type="image/png" href="static/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="static/favicon/favicon.svg">
+  <link rel="shortcut icon" href="static/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/favicon/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="LiveBeam">
+  <link rel="manifest" href="static/favicon/site.webmanifest">
+  <title>LiveBeam</title>
+</head>
+<body class="u-scrollbar">
+
+  <div id="root" class="site">
+    <div class="site__inner">
+
+      <header class="header site__header">
+        <div class="container container--size-md header__container">
+          <div class="header__action">
+            <a href="#" class="btn btn--size-sm btn--theme-white-fill header__action-btn">
+              <span class="btn__inner">
+                <span class="btn__title">Log in</span>
+              </span>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <main role="main" class="site__main">
+
+        <section id="intro" class="intro">
+          <div class="container container--size-md intro__container">
+            <div class="intro__row row">
+              <div class="intro__col row__col intro__col--content">
+                <div class="intro__content">
+                  <h1 class="fadeIn wow intro__title" data-wow-delay=".2s">It’s a hot place for your streaming fantasy.</h1>
+                  <div class="fadeIn wow u-content intro__text" data-wow-delay=".35s">
+                    <p>
+                      It’s a free space for watching streams and chatting with alluring people.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="intro__col row__col d-md-block intro__col--media">
+                <div class="intro__stream">
+                  <picture class="fadeIn wow intro__stream-hand" data-wow-delay=".6s">
+                    <source srcset="images/hand-mockup.webp" type="image/webp">
+                    <img src="images/hand-mockup.png" width="750" height="818" alt="It’s a dedicated space for your bold fantasies!"></picture>
+                  <div class="fadeIn wow intro__stream-message" data-wow-delay="1s">free communication with streamers here</div>
+                  <div class="u-cirlce u-cirlce--8"></div>
+                  <a href="#cta_form" class="btn btn--size-md btn--theme-gradient-accent-fill js-anchor d-sm-block intro__stream-btn">
+                    <span class="btn__inner">
+                      <span class="btn__title">Sign up now</span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+              <div class="intro__col row__col intro__col--content d-md-block">
+                <div class="intro__appeal">
+                  <h1 class="fadeIn wow intro__title" data-wow-delay=".2s">It’s a dedicated space for your bold fantasies!</h1>
+                  <div class="fadeIn wow u-content intro__description" data-wow-delay=".35s">
+                    <p>
+                      Hundreds of attractive admirers are already waiting for you here. Don’t delay – dive into the world of streaming, flirting, and hot communication right now!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="intro__col row__col intro__col--form">
+                <form action="#" id="cta_form" class="fadeIn wow cta-form intro__form" data-wow-delay=".5s">
+                  <div class="cta-form__step-wrapper">
+                    <div class="cta-form__step is-show">
+                      <picture class="d-md-none cta-form__logo">
+                        <img src="images/logo-livebeam.svg" width="168" height="28" alt="LiveBeam logo"></picture>
+                      <div class="cta-form__input u-area-input">
+                        <label for="cta_sex_male" class="u-area-input__label">I am</label>
+                        <div class="u-area-input__radio-wrapper">
+                          <label class="u-area-input__radio u-radio u-radio--size-md u-radio--theme-grey">
+                            <input type="radio" name="cta_sex" id="cta_sex_male" class="u-radio__control" value="Male">
+                            <span class="u-radio__inner">
+                              <span class="u-radio__title">Male</span>
+                            </span>
+                          </label>
+                          <label class="u-area-input__radio u-radio u-radio--size-md u-radio--theme-grey">
+                            <input type="radio" name="cta_sex" id="cta_sex_female" class="u-radio__control" value="Female">
+                            <span class="u-radio__inner">
+                              <span class="u-radio__title">Female</span>
+                            </span>
+                          </label>
+                        </div>
+                      </div>
+                      <div class="cta-form__input u-area-input">
+                        <label for="cta_name" class="u-area-input__label">My name is</label>
+                        <div class="u-area-input__input-wrapper">
+                          <input type="text" name="cta_name" id="cta_name" class="u-area-input__el u-input u-input--size-md u-input--theme-grey" required placeholder="e.g. Alex"></div>
+                      </div>
+                      <div class="cta-form__input u-area-input">
+                        <label for="cta_born" class="u-area-input__label">I was born on</label>
+                        <div class="u-area-input__input-wrapper">
+                          <input type="date" name="cta_born" id="cta_born" class="u-area-input__el u-input u-input--size-md u-input--theme-grey" required placeholder="MM/DD/YYYY"></div>
+                      </div>
+                      <label class="cta-form__privacy u-checkbox u-checkbox--size-md u-checkbox--theme-grey">
+                        <input type="checkbox" name="cta_privacy" class="u-checkbox__control" required>
+                        <span class="u-checkbox__inner">
+                          <span class="u-checkbox__icon"></span>
+                          <span class="u-checkbox__title">
+                            I have read understand and agree to Terms of Use, Privacy Policy, Disclosures&Disclaimers.
+                          </span>
+                        </span>
+                      </label>
+                      <button type="button" id="cta_form_btn_sign" class="btn btn--size-md btn--theme-gradient-accent-fill cta-form__btn" disabled="disabled">
+                        <span class="btn__inner">
+                          <span class="btn__title">Sign up now</span>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="cta-form__step">
+                      <picture class="d-md-none cta-form__logo">
+                        <img src="images/logo-livebeam.svg" width="168" height="28" alt="LiveBeam logo"></picture>
+                      <button type="button" id="cta_form_btn_google" class="btn btn--size-semi btn--theme-accent-fill cta-form__btn-auth" disabled="disabled">
+                        <span class="btn__inner">
+                          <picture class="btn__icon btn__icon--dir-ltr">
+                            <img src="images/icons/logo-google.svg" width="28" height="28" alt="Sign up with Google"></picture>
+                          <span class="btn__title">Sign up with Google</span>
+                        </span>
+                      </button>
+                      <p class="cta-form__seperator">or</p>
+                      <div class="cta-form__input u-area-input">
+                        <label for="cta_email" class="u-area-input__label">Email</label>
+                        <div class="u-area-input__input-wrapper">
+                          <input type="email" name="cta_email" id="cta_email" class="u-area-input__el u-input u-input--size-md u-input--theme-grey" required placeholder="e.g. Alex@email.com"></div>
+                      </div>
+                      <div class="cta-form__input u-area-input">
+                        <label for="cta_password" class="u-area-input__label">Password</label>
+                        <div class="u-area-input__input-wrapper">
+                          <button type="button" class="js-password-toggle u-area-input__btn-password">
+                            <svg class="u-icon">
+                              <use xlink:href="images/icons/icons.svg#eye-open"></use>
+                            </svg>
+                            <svg class="u-icon">
+                              <use xlink:href="images/icons/icons.svg#eye-close"></use>
+                            </svg>
+                          </button>
+                          <input type="password" name="cta_password" id="cta_password" class="u-area-input__el u-input u-input--size-md u-input--theme-grey" minlength="8" required placeholder="8+ characters"></div>
+                      </div>
+                      <button type="button" id="cta_form_btn_email" class="btn btn--size-semi btn--theme-accent-fill cta-form__btn-auth" disabled="disabled">
+                        <span class="btn__inner">
+                          <picture class="btn__icon btn__icon--dir-ltr">
+                            <img src="images/icons/email.svg" width="28" height="28" alt="Sign up with Google"></picture>
+                          <span class="btn__title">Sign up with Email</span>
+                        </span>
+                      </button>
+                      <p class="cta-form__appeal">
+                        You hereby confirm that you are fully able and competent to access Livebeam and comply with the Terms of Use & Service, and are at least eighteen (18) years of age or the age of majority under the law of the jurisdiction of your residence and the one you are accessing Livebeam from.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="cta-form__progress">
+                    <span class="is-active"></span>
+                    <span></span>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="u-cirlce u-cirlce--1"></div>
+          </div>
+        </section>
+
+        <section class="u-section">
+          <div class="container container--size-md u-section__container">
+            <h2 class="visually-hidden">User questionnaires</h2>
+            <div class="fadeIn wow slider-user u-section__slider-user" data-wow-delay=".15s">
+              <div class="swiper js-slider-user-init slider-user__inner">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-1.gif" width="663" height="600" alt="User gif 1"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-2.gif" width="663" height="600" alt="User gif 2"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-3.gif" width="663" height="600" alt="User gif 3"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-4.gif" width="663" height="600" alt="User gif 4"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-1.gif" width="663" height="600" alt="User gif 1"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-2.gif" width="663" height="600" alt="User gif 2"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-3.gif" width="663" height="600" alt="User gif 3"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-user__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <img src="images/user-card-4.gif" width="663" height="600" alt="User gif 4"></picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-cirlce u-cirlce--5" data-wow-delay=".15s"></div>
+          </div>
+        </section>
+
+        <section class="about">
+          <div class="container container--size-md about__container">
+            <div class="fadeIn wow about__inner" data-wow-delay=".15s">
+              <h2 class="fs-1 about__title">About</h2>
+              <div class="u-content about__text">
+                <p>
+                  It’s a global <strong>streaming platform</strong>
+                  for communication and meeting incredibly beautiful people. We created an excellent place where you can enjoy your time and <strong>find appropriate matches</strong>
+                  at first.
+                </p>
+                <p>
+                  Approximately 80% of our users have already found their lovelies.
+                  <strong>Watch streams</strong>
+                  without hindrance and meet someone
+                  <strong>who interests you.</strong>
+                </p>
+              </div>
+              <a href="#cta_form" class="btn btn--size-md btn--theme-gradient-accent-fill js-anchor about__btn">
+                <span class="btn__inner">
+                  <span class="btn__title">Join for free</span>
+                </span>
+              </a>
+            </div>
+            <div class="u-cirlce u-cirlce--2"></div>
+          </div>
+        </section>
+
+        <section class="u-section">
+          <div class="container container--size-md u-section__container">
+            <header class="u-section__header" data-wow-delay=".15s">
+              <h2 class="fadeIn wow fs-1 u-section__title">Why join us?</h2>
+            </header>
+            <div class="u-section__benefits">
+              <div class="swiper js-benefits-slider-init">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide u-section__benefits-col u-section__benefits-col--4">
+                    <article class="fadeIn wow u-box benefits-card u-section__benefits-card" data-wow-delay=".15s">
+                      <div class="benefits-card__inner">
+                        <header class="benefits-card__header">
+                          <picture class="benefits-card__picture">
+                            <img src="images/benefits-card-1.svg" width="36" height="36" alt="Chat with attractive streamers for free"></picture>
+                          <h3 class="fs-4 benefits-card__title">Chat with attractive streamers for free</h3>
+                        </header>
+                        <div class="u-content benefits-card__text">
+                          <p>
+                            It’s an excellent web platform for streaming. Write messages to the beautiful streamers for free and explore this magical universe of communication!
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide u-section__benefits-col u-section__benefits-col--4">
+                    <article class="fadeIn wow u-box benefits-card u-section__benefits-card" data-wow-delay=".3s">
+                      <div class="benefits-card__inner">
+                        <header class="benefits-card__header">
+                          <picture class="benefits-card__picture">
+                            <img src="images/benefits-card-2.svg" width="36" height="36" alt="Only verified users"></picture>
+                          <h3 class="fs-4 benefits-card__title">Only verified users</h3>
+                        </header>
+                        <div class="u-content benefits-card__text">
+                          <p>
+                            We care about the privacy and security of our customers. All accounts are verified so look for an attractive stranger confidently!
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide u-section__benefits-col u-section__benefits-col--4 u-section__benefits-col--empty"></div>
+                  <div class="swiper-slide u-section__benefits-col u-section__benefits-col--4 u-section__benefits-col--empty"></div>
+                  <div class="swiper-slide u-section__benefits-col u-section__benefits-col--4">
+                    <article class="fadeIn wow u-box benefits-card u-section__benefits-card" data-wow-delay=".5s">
+                      <div class="benefits-card__inner">
+                        <header class="benefits-card__header">
+                          <picture class="benefits-card__picture">
+                            <img src="images/benefits-card-3.svg" width="36" height="36" alt="Customized search"></picture>
+                          <h3 class="fs-4 benefits-card__title">Customized search</h3>
+                        </header>
+                        <div class="u-content benefits-card__text">
+                          <p>
+                            Match alluring partners for your own preferences. Maybe you will be interested in a hot slender European or shy beautiful Asian? Make your choice…
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide u-section__benefits-col u-section__benefits-col--4">
+                    <article class="fadeIn wow u-box benefits-card u-section__benefits-card" data-wow-delay=".7s">
+                      <div class="benefits-card__inner">
+                        <header class="benefits-card__header">
+                          <picture class="benefits-card__picture">
+                            <img src="images/benefits-card-4.svg" width="36" height="36" alt="Easy to use"></picture>
+                          <h3 class="fs-4 benefits-card__title">Easy to use</h3>
+                        </header>
+                        <div class="u-content benefits-card__text">
+                          <p>
+                            Forget about hundreds of annoying notifications and inconvenient use. We have created the platform as easy to use and search as possible. Don’t waste your time studying functionality. Just enjoy!
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fadeIn wow slider-stream u-section__slider-stream d-md-block" data-wow-delay=".2s">
+              <div class="swiper js-slider-stream-init slider-stream__inner">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-1@2x.webp 2x, images/stream-card-1.webp" type="image/webp">
+                          <img src="images/stream-card-1@2x.jpg" srcset="images/stream-card-1@2x.jpg 2x, images/stream-card-1.jpg" width="435" height="410" alt="Stream gif 1"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-2@2x.webp 2x, images/stream-card-2.webp" type="image/webp">
+                          <img src="images/stream-card-2@2x.jpg" srcset="images/stream-card-2@2x.jpg 2x, images/stream-card-2.jpg" width="435" height="410" alt="Stream gif 2"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-3@2x.webp 2x, images/stream-card-3.webp" type="image/webp">
+                          <img src="images/stream-card-3@2x.jpg" srcset="images/stream-card-3@2x.jpg 2x, images/stream-card-3.jpg" width="435" height="410" alt="Stream gif 3"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-4@2x.webp 2x, images/stream-card-4.webp" type="image/webp">
+                          <img src="images/stream-card-4@2x.jpg" srcset="images/stream-card-4@2x.jpg 2x, images/stream-card-4.jpg" width="435" height="410" alt="Stream gif 4"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-5@2x.webp 2x, images/stream-card-5.webp" type="image/webp">
+                          <img src="images/stream-card-5@2x.jpg" srcset="images/stream-card-5@2x.jpg 2x, images/stream-card-5.jpg" width="435" height="410" alt="Stream gif 5"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-6@2x.webp 2x, images/stream-card-6.webp" type="image/webp">
+                          <img src="images/stream-card-6@2x.jpg" srcset="images/stream-card-6@2x.jpg 2x, images/stream-card-6.jpg" width="435" height="410" alt="Stream gif 6"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-7@2x.webp 2x, images/stream-card-7.webp" type="image/webp">
+                          <img src="images/stream-card-7@2x.jpg" srcset="images/stream-card-7@2x.jpg 2x, images/stream-card-7.jpg" width="435" height="410" alt="Stream gif 7"></picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="u-cirlce u-cirlce--3"></div>
+            <div class="u-cirlce u-cirlce--4"></div>
+          </div>
+        </section>
+
+        <section class="u-section">
+          <div class="container container--size-md u-section__container">
+            <header class="u-section__header">
+              <h2 class="fadeIn wow fs-1 fs-1 u-section__title" data-wow-delay=".15s">Here you can find</h2>
+            </header>
+            <div class="u-section__info">
+              <article class="fadeIn wow u-box info-card u-section__info-card" data-wow-delay=".15s">
+                <div class="info-card__inner">
+                  <header class="info-card__header">
+                    <picture class="info-card__picture">
+                      <img src="images/info-card-1.svg" width="36" height="36" alt="Watching streams of everyone you really like;"></picture>
+                    <h3 class="fs-4 info-card__title">Watching streams of everyone you really like;</h3>
+                  </header>
+                </div>
+              </article>
+              <article class="fadeIn wow u-box info-card u-section__info-card" data-wow-delay=".2s">
+                <div class="info-card__inner">
+                  <header class="info-card__header">
+                    <picture class="info-card__picture">
+                      <img src="images/info-card-2.svg" width="36" height="36" alt="Free communication with pretty streamers;"></picture>
+                    <h3 class="fs-4 info-card__title">Free communication with&nbsp;pretty streamers;</h3>
+                  </header>
+                </div>
+              </article>
+              <article class="fadeIn wow u-box info-card u-section__info-card" data-wow-delay=".25s">
+                <div class="info-card__inner">
+                  <header class="info-card__header">
+                    <picture class="info-card__picture">
+                      <img src="images/info-card-3.svg" width="36" height="36" alt="Sweet connection with people you match;"></picture>
+                    <h3 class="fs-4 info-card__title">Sweet connection with people&nbsp;you match;</h3>
+                  </header>
+                </div>
+              </article>
+              <article class="fadeIn wow u-box info-card u-section__info-card" data-wow-delay=".35s">
+                <div class="info-card__inner">
+                  <header class="info-card__header">
+                    <picture class="info-card__picture">
+                      <img src="images/info-card-4.svg" width="36" height="36" alt="New acquaintances with someone who has similar interests;"></picture>
+                    <h3 class="fs-4 info-card__title">New acquaintances with someone who has similar interests;</h3>
+                  </header>
+                </div>
+              </article>
+              <article class="fadeIn wow u-box info-card u-section__info-card" data-wow-delay=".45s">
+                <div class="info-card__inner">
+                  <header class="info-card__header">
+                    <picture class="info-card__picture">
+                      <img src="images/info-card-5.svg" width="36" height="36" alt="Fascinating hobbies and exciting occupations from people you fancy."></picture>
+                    <h3 class="fs-4 info-card__title">
+                      Fascinating hobbies and exciting occupations from people you fancy.
+                    </h3>
+                  </header>
+                </div>
+              </article>
+            </div>
+            <div class="u-cirlce u-cirlce--6"></div>
+            <div class="u-cirlce u-cirlce--7"></div>
+          </div>
+        </section>
+
+        <section class="u-section">
+          <div class="container container--size-md u-section__container">
+            <header class="u-section__header --md-ta-left">
+              <h2 class="fadeIn wow fs-1 u-section__title" data-wow-delay=".15s">
+                It’s a universe of communication and streaming without borders!
+              </h2>
+              <div class="fadeIn wow u-content u-section__description" data-wow-delay=".25s">
+                <p>
+                  Let yourself to be free – share your thoughts, delight, and fears with beautiful strangers!
+                </p>
+              </div>
+            </header>
+            <div class="fadeIn wow slider-stream u-section__slider-stream" data-wow-delay=".35s">
+              <div class="swiper js-slider-stream-init slider-stream__inner">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-1@2x.webp 2x, images/stream-card-1.webp" type="image/webp">
+                          <img src="images/stream-card-1@2x.jpg" srcset="images/stream-card-1@2x.jpg 2x, images/stream-card-1.jpg" width="435" height="410" alt="Stream gif 1"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-2@2x.webp 2x, images/stream-card-2.webp" type="image/webp">
+                          <img src="images/stream-card-2@2x.jpg" srcset="images/stream-card-2@2x.jpg 2x, images/stream-card-2.jpg" width="435" height="410" alt="Stream gif 2"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-3@2x.webp 2x, images/stream-card-3.webp" type="image/webp">
+                          <img src="images/stream-card-3@2x.jpg" srcset="images/stream-card-3@2x.jpg 2x, images/stream-card-3.jpg" width="435" height="410" alt="Stream gif 3"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-4@2x.webp 2x, images/stream-card-4.webp" type="image/webp">
+                          <img src="images/stream-card-4@2x.jpg" srcset="images/stream-card-4@2x.jpg 2x, images/stream-card-4.jpg" width="435" height="410" alt="Stream gif 4"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-5@2x.webp 2x, images/stream-card-5.webp" type="image/webp">
+                          <img src="images/stream-card-5@2x.jpg" srcset="images/stream-card-5@2x.jpg 2x, images/stream-card-5.jpg" width="435" height="410" alt="Stream gif 5"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-6@2x.webp 2x, images/stream-card-6.webp" type="image/webp">
+                          <img src="images/stream-card-6@2x.jpg" srcset="images/stream-card-6@2x.jpg 2x, images/stream-card-6.jpg" width="435" height="410" alt="Stream gif 6"></picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide slider-stream__slide">
+                    <div class="slider-user__card user-card">
+                      <div class="user-card__media">
+                        <picture class="user-card__img">
+                          <source srcset="images/stream-card-7@2x.webp 2x, images/stream-card-7.webp" type="image/webp">
+                          <img src="images/stream-card-7@2x.jpg" srcset="images/stream-card-7@2x.jpg 2x, images/stream-card-7.jpg" width="435" height="410" alt="Stream gif 7"></picture>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <footer class="fadeIn wow u-section__footer" data-wow-delay=".45s">
+              <a href="#cta_form" class="btn btn--size-md btn--theme-gradient-accent-fill js-anchor u-section__footer-btn">
+                <span class="btn__inner">
+                  <span class="btn__title">Join us for free</span>
+                </span>
+              </a>
+            </footer>
+            <div class="u-cirlce d-md-block u-cirlce--9"></div>
+          </div>
+        </section>
+
+        <section id="appeal" class="d-md-none intro intro--appeal">
+          <div class="container container--size-md intro__container">
+            <div class="intro__row row">
+              <div class="intro__col row__col intro__col--content">
+                <div class="intro__appeal">
+                  <h1 class="fadeIn wow intro__title" data-wow-delay=".2s">It’s a dedicated space for your bold fantasies!</h1>
+                  <div class="fadeIn wow u-content intro__description" data-wow-delay=".35s">
+                    <p>
+                      Hundreds of attractive admirers are already waiting for you here. Don’t delay – dive into the world of streaming, flirting, and hot communication right now!
+                    </p>
+                  </div>
+                  <div class="fadeIn wow" data-wow-delay=".4s">
+                    <a href="#cta_form" class="btn btn--size-md btn--theme-gradient-accent-fill js-anchor intro__btn">
+                      <span class="btn__inner">
+                        <span class="btn__title">Write to her</span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="intro__col row__col intro__col--media">
+                <div class="intro__stream">
+                  <picture class="fadeIn wow intro__stream-hand" data-wow-delay=".2s">
+                    <source srcset="images/hand-mockup.webp" type="image/webp">
+                    <img src="images/hand-mockup.png" width="750" height="818" alt="It’s a dedicated space for your bold fantasies!"></picture>
+                  <div class="fadeIn wow intro__stream-message" data-wow-delay="1s">free communication with streamers here</div>
+                  <div class="u-cirlce u-cirlce--8"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="footer site__footer">
+        <div class="container container--size-md footer__container">
+          <nav class="footer__nav">
+            <ul class="footer__nav-list footer__nav-list--pull-right">
+              <li class="footer__nav-item">
+                <a href="mailto:support@gmail.com" target="_blank" class="footer__nav-link">support@gmail.com</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Unsubscribe</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <p class="footer__title">Legal terms</p>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Terms of Use</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Diclosures&Disclaimers</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <p class="footer__title">Privacy info</p>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Privacy Policy</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Cookie Policy</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <p class="footer__title">About</p>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+
+  <script src="js/app.min.js??=v=20250429190746"></script>
+</body>
+</html>

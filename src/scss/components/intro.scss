@@ -1,0 +1,181 @@
+.intro {
+  padding: 28rem 0;
+  @media (max-width: $md) {
+    padding: 60rem 0 var(--section-y-lg);
+  }
+  &--appeal {
+    padding: 140rem 0 0;
+  }
+  &__container {
+    position: relative;
+  }
+  &__row {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    @media (max-width: $md) {
+      flex-wrap: wrap;
+    }
+  }
+  &__col {
+    &--content {
+      flex-grow: 1;
+      @media (max-width: $md) {
+        max-width: 100%;
+        flex-basis: 100%;
+      }
+    }
+    &--form {
+      max-width: 500rem;
+      min-width: 400rem;
+      flex: 0 0 39%;
+      @media (max-width: $md) {
+        max-width: 100%;
+        min-width: 0;
+        flex-basis: 100%;
+      }
+    }
+    &--media {
+      max-width: 40%;
+      min-width: 400rem;
+      flex: 0 0 40%;
+      align-self: flex-end;
+      @media (max-width: $md) {
+        max-width: 100%;
+        min-width: 0;
+        flex-basis: 100%;
+      }
+    }
+  }
+  &__content {
+    max-width: 680rem;
+    padding: 144rem 0;
+    @media (max-width: $md) {
+      max-width: 100%;
+      margin: 0 0 20rem;
+      padding: 0;
+      text-align: center;
+    }
+    .intro__title {
+      @media (max-width: $md) {
+        font-size: 24rem;
+      }
+    }
+  }
+  &__appeal {
+    max-width: 680rem;
+    padding: 174rem 0;
+    @media (max-width: $md) {
+      max-width: 100%;
+      margin: 52rem 0 40rem;
+      padding: 0;
+    }
+  }
+  &__title {
+    margin: 0 0 36rem;
+    @media (max-width: $md) {
+      margin-bottom: 20rem;
+    }
+  }
+  &__text {
+    max-width: 430rem;
+    margin: 0;
+    @media (max-width: $md) {
+      max-width: 100%;
+    }
+  }
+  &__description {
+    max-width: 540rem;
+    margin: 0;
+    font-size: var(--fs-5);
+    @media (max-width: $md) {
+      max-width: 100%;
+    }
+  }
+  &__btn {
+    width: 100%;
+    min-width: 0;
+    margin: 60rem 0 0;
+    @media (min-width: $sm-mf) {
+      width: auto;
+      min-width: 360rem;
+    }
+  }
+  &__form {
+  }
+  &__stream {
+    max-width: 750rem;
+    margin: 0 -226rem 0 0;
+    position: relative;
+    @media (max-width: $xl) {
+      margin-right: -260rem;
+      margin-left: -80rem;
+    }
+    @media (max-width: $md) {
+      max-width: initial;
+      margin: 0;
+    }
+    &-hand {
+      @media (max-width: $md) {
+        border-radius: 0 0 20rem;
+        overflow: hidden;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        position: relative;
+        pointer-events: none;
+        user-select: none;
+        z-index: -1;
+        @media (max-width: $md) {
+          width: calc(100% + 88rem);
+          margin-right: -88rem;
+          left: -10rem;
+        }
+      }
+    }
+    &-message {
+      background: $gradientAccent1;
+      width: 100%;
+      max-width: 188rem;
+      margin: 0;
+      padding: 17rem;
+      font-size: var(--fs-8);
+      color: $whiteColor;
+      position: absolute;
+      top: 53%;
+      left: 26%;
+      border-radius: $radiusSm2;
+      @media (max-width: $md) {
+        max-width: 92rem;
+        padding: 8rem;
+        font-size: 7.84rem;
+        top: 54%;
+        left: 31%;
+        border-radius: 9.8rem;
+      }
+      &:before {
+        background: url('data:image/svg+xml,%3Csvg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M9 0L18 20H0L9 0Z" fill="url(%23paint0_linear_2014_57)"/%3E%3Cdefs%3E%3ClinearGradient id="paint0_linear_2014_57" x1="9.00002" y1="0" x2="9.00002" y2="26.6667" gradientUnits="userSpaceOnUse"%3E%3Cstop stop-color="%23574DCC"/%3E%3Cstop offset="1" stop-color="%23579AFF"/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E') 50% / contain no-repeat;
+        width: 18rem;
+        height: 20rem;
+        margin-bottom: -1px;
+        content: '';
+        position: absolute;
+        bottom: 100%;
+        right: 55rem;
+        z-index: -1;
+        @media (max-width: $md) {
+          width: 10rem;
+          height: 12rem;
+          right: 28rem;
+        }
+      }
+    }
+    &-btn {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+  }
+}

@@ -1,0 +1,106 @@
+$siteResolution: 1px;
+$siteResolutionMd: .3125vw;
+$mainFont: 'Trebuchet MS';
+$mainWeight: 400;
+$lineHeight1: 1.16666666667;
+$lineHeightDefault: $lineHeight1;
+
+$containerWidthMd: 1386rem;
+
+$gap: 10rem;
+$gapFluid: 20rem;
+
+$radiusXs: 5rem;
+$radiusSm: 10rem;
+$radiusSm2: 20rem;
+$radiusMd: 30rem;
+$radiusSemi: 40rem;
+$radiusLg: 60rem;
+
+$whiteColor: #ffffff;
+$beigeColor: #FCFCFF;
+$blackColor: #000000;
+$blackLightColor: #303030;
+$greyColor: #F6F7FA;
+$greySteelColor: #F5F7F9;
+$blueColor: #1A73E8;
+$blueLightColor: #579AFF;
+$blueSteelColor: #5893FA;
+$blueMediumColor: #3494E6;
+$purpleColor: #574DCC;
+$purpleLightColor: #261F7B;
+$purpleSteelColor: #5851CF;
+$graphiteBlueColor: #595B75;
+$graphiteBlueLightColor: #8789A1;
+$pinkColor: #EC6EAD;
+$accentColor: $blueColor;
+
+$bgSite: $greyColor;
+
+$gradientAccent1: linear-gradient(90deg, $purpleColor 0%, $blueLightColor 100%);
+$gradientAccent2: linear-gradient(-90deg, $purpleColor 0%, $blueLightColor 100%);
+$gradientBluePink1: linear-gradient(180deg, $blueMediumColor 0%, $pinkColor 100%);
+
+$boxShadowBlack1: 0 10px 40px rgba($blackColor, .1);
+$boxShadowBlack2: 0 10px 30px rgba($blackColor, .05);
+$boxShadowPurple1: inset 0 0 10px rgba($purpleLightColor, .05);
+$boxShadowPurple2: 0 20px 30px rgba($purpleSteelColor, .2);
+$boxShadowPurple3: inset 0 0 6px rgba($purpleLightColor, .05);
+
+$fontFamily: $mainFont, Open Sans, Arial, sans-serif;
+$fontColor: $blackLightColor;
+$fontWeight: $mainWeight;
+
+$transition: all .4s 0ms;
+
+$xl: 1340px;
+$xl-mf: $xl + 1;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs + 1;
+
+:root {
+  --fs-default: 24rem;
+  --fs-1: 56rem;
+  --fs-2: 40rem;
+  --fs-3: 32rem;
+  --fs-4: 24rem;
+  --fs-5: 21rem;
+  --fs-6: 20rem;
+  --fs-7: 18rem;
+  --fs-8: 16rem;
+  --fs-9: 14rem;
+  --fs-10: 22rem;
+
+  --gap: 10rem;
+  --gap-: -10rem;
+  --gap-fluid: 20rem;
+  --gap-fluid-: -20rem;
+  --gap-container: var(--gap-fluid);
+  --gap-container-: var(--gap-fluid-);
+
+  --section-y-lg: 88rem;
+
+  --vh: 1vh;
+  @media (max-width: $md) {
+    --fs-default: 16rem;
+    --fs-1: 26rem;
+    --fs-4: 20rem;
+    --fs-5: 16rem;
+    --fs-6: 12rem;
+    --fs-7: 12rem;
+    --fs-8: 10rem;
+    --fs-10: 16rem;
+
+    --section-y-lg: 30rem;
+  }
+}

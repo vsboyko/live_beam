@@ -1,0 +1,38 @@
+.about {
+  padding: var(--section-y-lg) 0;
+  &__container {
+    position: relative;
+  }
+  &__inner {
+    background: $whiteColor;
+    padding: 66rem 80rem 80rem;
+    text-align: center;
+    border-radius: $radiusLg;
+    box-shadow: $boxShadowBlack2;
+    @media (max-width: $md) {
+      padding: 40rem 15rem;
+      border-radius: 20rem;
+    }
+  }
+  &__title {
+    margin: 0 0 43rem;
+    @media (max-width: $md) {
+      margin-bottom: 15rem;
+    }
+  }
+  &__text {
+    max-width: 660rem;
+    margin: 0 auto 50rem;
+    @media (max-width: $md) {
+      margin-bottom: 66rem;
+    }
+  }
+  &__btn {
+    width: 100%;
+    min-width: 0;
+    @media (min-width: $sm-mf) {
+      width: auto;
+      min-width: 360rem;
+    }
+  }
+}

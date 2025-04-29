@@ -1,0 +1,15 @@
+.header {
+  padding: 48rem 0;
+  @media (max-width: $md) {
+    display: none;
+  }
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__action {
+    display: flex;
+    &-btn {
+    }
+  }
+}
